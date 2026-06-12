@@ -22,6 +22,7 @@ languages and one in general for terminal usage.
 - When the Normal mode is chosen just show the list of commands you are gonna execute.
 - In both modes before executing there should appear the list of the commands that are gonna be executed and should be confirmed by the user.
 - Prefer plain language. Short sentences. No filler.
+- Always ask at the start Beginner or Normal and explain briefly what is it
 
 ## Memory (the persistence layer)
 
