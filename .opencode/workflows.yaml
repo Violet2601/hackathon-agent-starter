@@ -1,0 +1,21 @@
+# Workflows storage
+# Format:
+# <keyword>:
+#   description: <short description>
+#   variables: [<var1>, <var2>]
+#   commands:
+#     - "<command1>"
+#     - "<command2>"
+
+helloword:
+  description: Prints Hello World
+  commands:
+    - 'echo "Hello World"'
+
+git-save:
+  description: Stage all, commit with message, and push
+  variables: [message]
+  commands:
+    - git add .
+    - git commit -m "{message}"
+    - git push
